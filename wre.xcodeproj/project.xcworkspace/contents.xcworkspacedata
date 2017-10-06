@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:wr.xcodeproj">
+      location = "self:/Users/marko/Documents/wre/wre.xcodeproj">
    </FileRef>
 </Workspace>

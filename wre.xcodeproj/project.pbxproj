@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ADFF58C31F86F8F300F8EFA1 /* wr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFF58C31F86F8F300F8EFA1 /* wre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFF58C61F86F8F300F8EFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADFF58C81F86F8F300F8EFA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADFF58CB1F86F8F300F8EFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADFF58CD1F86F8F300F8EFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADFF58D01F86F8F300F8EFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADFF58D21F86F8F400F8EFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADFF58D71F86F8F400F8EFA1 /* wrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFF58D71F86F8F400F8EFA1 /* wreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFF58DB1F86F8F400F8EFA1 /* wrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrTests.swift; sourceTree = "<group>"; };
 		ADFF58DD1F86F8F400F8EFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADFF58E21F86F8F400F8EFA1 /* wrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFF58E21F86F8F400F8EFA1 /* wreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADFF58E61F86F8F400F8EFA1 /* wrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrUITests.swift; sourceTree = "<group>"; };
 		ADFF58E81F86F8F400F8EFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		ADFF58C41F86F8F300F8EFA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADFF58C31F86F8F300F8EFA1 /* wr.app */,
-				ADFF58D71F86F8F400F8EFA1 /* wrTests.xctest */,
-				ADFF58E21F86F8F400F8EFA1 /* wrUITests.xctest */,
+				ADFF58C31F86F8F300F8EFA1 /* wre.app */,
+				ADFF58D71F86F8F400F8EFA1 /* wreTests.xctest */,
+				ADFF58E21F86F8F400F8EFA1 /* wreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADFF58C21F86F8F300F8EFA1 /* wr */ = {
+		ADFF58C21F86F8F300F8EFA1 /* wre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADFF58EB1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wr" */;
+			buildConfigurationList = ADFF58EB1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wre" */;
 			buildPhases = (
 				ADFF58BF1F86F8F300F8EFA1 /* Sources */,
 				ADFF58C01F86F8F300F8EFA1 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = wr;
+			name = wre;
 			productName = wr;
-			productReference = ADFF58C31F86F8F300F8EFA1 /* wr.app */;
+			productReference = ADFF58C31F86F8F300F8EFA1 /* wre.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADFF58D61F86F8F400F8EFA1 /* wrTests */ = {
+		ADFF58D61F86F8F400F8EFA1 /* wreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADFF58EE1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wrTests" */;
+			buildConfigurationList = ADFF58EE1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wreTests" */;
 			buildPhases = (
 				ADFF58D31F86F8F400F8EFA1 /* Sources */,
 				ADFF58D41F86F8F400F8EFA1 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				ADFF58D91F86F8F400F8EFA1 /* PBXTargetDependency */,
 			);
-			name = wrTests;
+			name = wreTests;
 			productName = wrTests;
-			productReference = ADFF58D71F86F8F400F8EFA1 /* wrTests.xctest */;
+			productReference = ADFF58D71F86F8F400F8EFA1 /* wreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ADFF58E11F86F8F400F8EFA1 /* wrUITests */ = {
+		ADFF58E11F86F8F400F8EFA1 /* wreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADFF58F11F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wrUITests" */;
+			buildConfigurationList = ADFF58F11F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wreUITests" */;
 			buildPhases = (
 				ADFF58DE1F86F8F400F8EFA1 /* Sources */,
 				ADFF58DF1F86F8F400F8EFA1 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				ADFF58E41F86F8F400F8EFA1 /* PBXTargetDependency */,
 			);
-			name = wrUITests;
+			name = wreUITests;
 			productName = wrUITests;
-			productReference = ADFF58E21F86F8F400F8EFA1 /* wrUITests.xctest */;
+			productReference = ADFF58E21F86F8F400F8EFA1 /* wreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADFF58BE1F86F8F300F8EFA1 /* Build configuration list for PBXProject "wr" */;
+			buildConfigurationList = ADFF58BE1F86F8F300F8EFA1 /* Build configuration list for PBXProject "wre" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADFF58C21F86F8F300F8EFA1 /* wr */,
-				ADFF58D61F86F8F400F8EFA1 /* wrTests */,
-				ADFF58E11F86F8F400F8EFA1 /* wrUITests */,
+				ADFF58C21F86F8F300F8EFA1 /* wre */,
+				ADFF58D61F86F8F400F8EFA1 /* wreTests */,
+				ADFF58E11F86F8F400F8EFA1 /* wreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		ADFF58D91F86F8F400F8EFA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ADFF58C21F86F8F300F8EFA1 /* wr */;
+			target = ADFF58C21F86F8F300F8EFA1 /* wre */;
 			targetProxy = ADFF58D81F86F8F400F8EFA1 /* PBXContainerItemProxy */;
 		};
 		ADFF58E41F86F8F400F8EFA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ADFF58C21F86F8F300F8EFA1 /* wr */;
+			target = ADFF58C21F86F8F300F8EFA1 /* wre */;
 			targetProxy = ADFF58E31F86F8F400F8EFA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -465,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wr.app/wr";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wre.app/wre";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wr.app/wr";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wre.app/wre";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADFF58BE1F86F8F300F8EFA1 /* Build configuration list for PBXProject "wr" */ = {
+		ADFF58BE1F86F8F300F8EFA1 /* Build configuration list for PBXProject "wre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADFF58E91F86F8F400F8EFA1 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADFF58EB1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wr" */ = {
+		ADFF58EB1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADFF58EC1F86F8F400F8EFA1 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADFF58EE1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wrTests" */ = {
+		ADFF58EE1F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADFF58EF1F86F8F400F8EFA1 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADFF58F11F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wrUITests" */ = {
+		ADFF58F11F86F8F400F8EFA1 /* Build configuration list for PBXNativeTarget "wreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADFF58F21F86F8F400F8EFA1 /* Debug */,
