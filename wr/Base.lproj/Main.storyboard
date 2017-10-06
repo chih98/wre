@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,112 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="wre" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waste Reduction Engine" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtV-e3-inu">
+                                <rect key="frame" x="16" y="44" width="343" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a picture of any object, and the Waste Reduction Engine will tell you how to dispose of it properly." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNY-Vr-hik">
+                                <rect key="frame" x="16" y="88" width="343" height="61"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYc-df-kar">
+                                <rect key="frame" x="16" y="697" width="343" height="61"/>
+                                <string key="text">WRE is an open source project hosted by Plate App LLC. Learn More at 
+github.com/chih98/wre</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGA-Sx-fRD">
+                                <rect key="frame" x="116.66666666666669" y="642" width="142" height="47"/>
+                                <color key="backgroundColor" red="1" green="0.4747572276" blue="0.2004998922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="bUE-9U-HDB"/>
+                                    <constraint firstAttribute="width" constant="142" id="mpg-q8-OiA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Learn More">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="learnMore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHo-qi-Dc2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8A-vr-ltM">
+                                <rect key="frame" x="112.66666666666669" y="399" width="150" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iM-I0-4i6">
+                                <rect key="frame" x="112.66666666666669" y="336" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="fk0-SQ-Mh9"/>
+                                    <constraint firstAttribute="width" constant="150" id="uiz-oH-9y9"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="recycle"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.70271968839999999" green="0.26872098449999998" blue="0.96479159589999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cYc-df-kar" secondAttribute="trailing" constant="16" id="10D-Ht-EBa"/>
+                            <constraint firstItem="cYc-df-kar" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2TZ-oh-Szm"/>
+                            <constraint firstItem="3iM-I0-4i6" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="BQU-Sl-L23"/>
+                            <constraint firstItem="g8A-vr-ltM" firstAttribute="centerX" secondItem="3iM-I0-4i6" secondAttribute="centerX" id="H0M-TO-Jja"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cYc-df-kar" secondAttribute="bottom" constant="20" id="LUN-GD-amt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oNY-Vr-hik" secondAttribute="trailing" constant="16" id="OTK-ar-I84"/>
+                            <constraint firstItem="YtV-e3-inu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PcW-QZ-yzF"/>
+                            <constraint firstItem="cYc-df-kar" firstAttribute="top" secondItem="uGA-Sx-fRD" secondAttribute="bottom" constant="8" id="QBU-rc-jQG"/>
+                            <constraint firstItem="g8A-vr-ltM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="S1m-wL-e0c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YtV-e3-inu" secondAttribute="trailing" constant="16" id="cDC-yy-BeW"/>
+                            <constraint firstItem="oNY-Vr-hik" firstAttribute="top" secondItem="YtV-e3-inu" secondAttribute="bottom" constant="8" id="fMj-M7-pL1"/>
+                            <constraint firstItem="uGA-Sx-fRD" firstAttribute="centerX" secondItem="cYc-df-kar" secondAttribute="centerX" id="hK8-Bo-W34"/>
+                            <constraint firstItem="oNY-Vr-hik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lhH-ST-GzM"/>
+                            <constraint firstItem="g8A-vr-ltM" firstAttribute="width" secondItem="3iM-I0-4i6" secondAttribute="width" id="qgV-1R-cxi"/>
+                            <constraint firstItem="cYc-df-kar" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uaN-eh-5Pn"/>
+                            <constraint firstItem="YtV-e3-inu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wXr-dJ-LmZ"/>
+                            <constraint firstItem="YtV-e3-inu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yqt-ab-VM3"/>
+                            <constraint firstItem="3iM-I0-4i6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yt8-P3-d1K"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ovv-3g-0cj">
+            <objects>
+                <viewController id="2kG-US-574" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1e8-70-AcT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hN9-M5-GBh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAx-XS-4F0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823" y="32"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="recycle" width="1000" height="978"/>
+    </resources>
 </document>

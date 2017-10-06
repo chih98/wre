@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func learnMore(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "https://github.com/chih98/wre")!, options: [:], completionHandler: nil)
+        
+    }
 
 }
 
